@@ -4,6 +4,6 @@ WORKDIR /ums
 ADD ums /ums
 RUN pip3 install -r requirements.txt
 
-EXPOSE 7070
+EXPOSE 8080
 ENTRYPOINT ["python"]
 CMD ["/ums/app.py"]
